@@ -8,7 +8,7 @@ This project is a compilation of various challenges found on [roadmap.sh](https:
 
 #### 1. Accordion Component
 
-This challenge involves creating a simple accordion component for displaying frequently asked questions.
+This [challenge](https://roadmap.sh/projects/accordion) involves creating a simple accordion component for displaying frequently asked questions.
 
 - **Files:**
   - `index.html`: Contains the HTML structure of the accordion component.
