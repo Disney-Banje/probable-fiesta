@@ -1,6 +1,6 @@
 # Accordion Component
 
-This is a simple accordion component for displaying frequently asked questions.
+This is a simple accordion component for displaying frequently asked questions. A project of [roadmap.sh](https://roadmap.sh/projects/accordion)
 
 ## Project Structure
 
