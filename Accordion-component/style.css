@@ -72,6 +72,10 @@ h2 {
     display: none;
 }
 
+.question-answer p {
+    height: 9.0rem;
+}
+
 .question-answer.active {
     display: block;
 }
