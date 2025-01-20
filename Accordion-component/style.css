@@ -1,0 +1,95 @@
+html {
+    font-size: 62.5%;
+}
+
+*::before,
+*::after,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: hsl(0deg 0% 0%);
+    border: none;
+    color: white;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+h1, 
+h2 {
+    font-weight: 500;
+}
+
+body {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+#app {
+    max-width: 55.0rem;
+    margin: 2.2rem;
+}
+
+h1 {
+    margin-bottom: 1.4rem;
+}
+
+#questions-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2.0rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.question-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.question-answer {
+    padding: 1.2rem;
+    border: 0.2rem solid hsl(0deg 0% 0%);
+    border-radius: 1.2rem;
+    display: none;
+}
+
+.question-answer.active {
+    display: block;
+}
+
+button {
+    transition: all 250ms ease-in-out;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 24%);
+}
+
+button:active {
+    background-color: orange;
+    color: hsl(0deg 0% 0%);
+}
+
+ion-icon {
+    font-size: 2.0rem;
+}
+
