@@ -5,14 +5,7 @@ This is a simple accordion component for displaying frequently asked questions.
 ## Project Structure
 
 
-```markdown
-# Accordion Component
 
-This is a simple accordion component for displaying frequently asked questions.
-
-## Project Structure
-
-```
 Accordion-component/
 ├── index.html
 ├── main.js
