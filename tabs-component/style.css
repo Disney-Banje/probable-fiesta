@@ -1,0 +1,63 @@
+html {
+    font-size: 62.5%;
+}
+
+*::before,
+*::after,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 2.8rem;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    color: black;
+    background-color: wheat;
+    min-height: 100vh;
+}
+
+#app {
+    margin: 2.2rem;
+    max-width: 50.5rem;
+}
+
+ul {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    color: grey;
+}
+
+li {
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 1.0rem;
+    border-radius: 0.8rem;
+    transition:  background-color 250ms ease-in-out;
+}
+
+li:hover {
+    background-color: gainsboro;
+}
+
+.active {
+    color: black;
+}
+
+.content-wrapper {
+    background-color: black;
+    border-radius: 1.2rem;
+    padding: 2.2rem;
+    color: wheat;
+    line-height: 1.5;
+    font-weight: 600;
+}
