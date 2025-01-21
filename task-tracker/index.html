@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    
+    <div id="app">
+        <main class="content">
+            <h1>Task Tracker</h1>
+            <form>
+                <input type="text" name="user-task" id="user-task" placeholder="Start writing and press enter to create task">
+                <button type="submit">
+                    <ion-icon name="return-down-back-outline"></ion-icon>
+                </button>
+            </form>
+            <ul class="content-wrapper">
+                <!-- Added tasks go here -->
+            </ul>
+        </main>
+    </div>
+
+</body>
+</html>
