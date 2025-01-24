@@ -99,6 +99,10 @@ ion-icon {
     color: black;
 }
 
+.task-delete ion-icon:hover {
+    color: orangered;
+}
+
 .marked {
     background-color: grey;
 }
